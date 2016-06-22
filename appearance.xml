@@ -1,0 +1,44 @@
+<appearance>
+  <parameters>
+    <parameter name='homepage'/>
+    <parameter name='homepage_title'/>
+    <parameter name='homepage_content'/>
+    <parameter name='homepage_slideshow'>
+      <max_width>1200</max_width>
+    </parameter>
+
+    <parameter name='additional_info'/>
+    <parameter name='opening_times'/>
+    <parameter name='title'/>
+    <parameter name='top_links'/>
+    <parameter name='footer_links'/>
+    <parameter name='important_message'/>
+
+    <parameter name='desktop_banner' type="image" user="franchise">
+      <max_width>1700</max_width>
+      <description>Header banner, only visible on desktop</description>
+      <section>design</section>
+    </parameter>
+
+    <parameter name='shopping_page_url'/>
+    <parameter name='index_redirection_url'/>
+    <parameter name='banner_redirection_url'/>
+
+    <parameter name='meta_description'/>
+    <parameter name='meta_keywords'/>
+
+    <parameter name='menu_change_date' type='date' user='franchise'>
+      <description>Next menu switch date</description>
+      <section>parameters</section>
+    </parameter>
+  </parameters>
+
+  <tags>
+    <tag name="Vegetarian"/>
+    <tag name="Lactose Free"/>
+    <tag name="Gluten Free"/>
+    <tag name="Until"/>
+    <tag name="Starting from"/>
+    <tag name="force_customisation"/>
+  </tags>
+</appearance>

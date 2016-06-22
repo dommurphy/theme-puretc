@@ -1,0 +1,13 @@
+<div class="product__picture-container">
+  <r:product:picture default_path="/assets-images/placeholder.png" class="product__picture" alt="<r:product:name_for_html_attribute/>" />
+  <r:product:if_has_tag in="Until">
+    <div class="product__timing product__timing_until">
+      Until <r:param name="menu_change_date"/>
+    </div>
+  </r:product:if_has_tag>
+  <r:product:if_has_tag in="Starting from">
+    <div class="product__timing product__timing_from">
+      à partir du <r:param name="menu_change_date"/>
+    </div>
+  </r:product:if_has_tag>
+</div>
